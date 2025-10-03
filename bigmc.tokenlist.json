@@ -6,12 +6,16 @@
   "tokens": [
     {
       "chainId": 137,
-      "address": "CONTRACT_ADDRESS",
+      "address": "0xeC0132ED0a46fCb20Ae208e827522c9b045d7c4E",
       "name": "McDonaldTrumpPepeInu",
       "symbol": "BIGMC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/bigmcmeme-blip/BIGMC-official/main/BIGMC_logo_256x256.png"
     }
   ],
-  "version": { "major": 1, "minor": 0, "patch": 0 }
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
 }
