@@ -3,8 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website of $BIGMC — McDonaldTrumpPepeInu, a meme token on Polygon.">
+  <meta name="theme-color" content="#111111">
   <title>$BIGMC — McDonaldTrumpPepeInu</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       font-family: Arial, sans-serif;
       background: linear-gradient(135deg, #111, #222);
@@ -12,35 +17,43 @@
       text-align: center;
       margin: 0;
       padding: 0;
+      line-height: 1.6;
     }
-
     header {
       background: #ffcc00;
       color: #111;
-      padding: 20px;
+      padding: 30px 20px;
       border-bottom: 5px solid #333;
     }
-
     .logo {
-      width: 140px;
+      width: 180px;
+      height: 180px;
+      max-width: 70vw;
+      object-fit: contain;
       margin-bottom: 15px;
+      filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.35));
     }
-
     h1 {
-      font-size: 2.2em;
+      font-size: clamp(1.6rem, 5vw, 2.4rem);
+      line-height: 1.2;
       margin: 0;
     }
-
     h2 {
-      font-size: 1.2em;
-      margin: 10px 0;
+      font-size: 1.2rem;
+      margin: 12px 0;
       font-weight: normal;
     }
-
-    .links {
-      margin: 30px 0;
+    header p {
+      max-width: 760px;
+      margin: 15px auto 0;
     }
-
+    main {
+      padding: 20px;
+    }
+    .links {
+      margin: 20px auto;
+      max-width: 900px;
+    }
     .links a {
       display: inline-block;
       margin: 8px;
@@ -50,75 +63,158 @@
       font-weight: bold;
       text-decoration: none;
       border-radius: 8px;
-      transition: 0.3s;
+      transition: background 0.2s, transform 0.2s;
     }
-
     .links a:hover {
       background: #00cc66;
-      transform: scale(1.05);
+      transform: translateY(-2px);
     }
-
+    .info {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #191919;
+      border: 1px solid #333;
+      border-radius: 12px;
+      text-align: left;
+    }
+    .info h2 {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #ffcc00;
+    }
+    .contract {
+      overflow-wrap: anywhere;
+    }
+    .info a,
+    footer a {
+      color: #00ffcc;
+      overflow-wrap: anywhere;
+    }
     footer {
       margin-top: 40px;
-      padding: 20px;
-      font-size: 0.9em;
+      padding: 25px 20px;
+      font-size: 0.9rem;
       background: #111;
       border-top: 2px solid #333;
     }
-
-    footer a {
-      color: #00ffcc;
-      text-decoration: none;
-      margin: 0 5px;
+    footer p {
+      margin: 8px 0;
     }
-
-    footer a:hover {
-      text-decoration: underline;
+    @media (max-width: 480px) {
+      header {
+        padding: 24px 15px;
+      }
+      .logo {
+        width: 150px;
+        height: 150px;
+      }
+      .links a {
+        display: block;
+        margin: 12px auto;
+        max-width: 300px;
+      }
+      .info {
+        padding: 16px;
+      }
     }
   </style>
 </head>
 <body>
-
   <header>
-    <img src="https://raw.githubusercontent.com/bigmcmeme-blip/BIGMC-official/main/BIGMC_logo_256x256.png" alt="BIGMC Logo" class="logo">
-    <h1>🐸🍔 $BIGMC — McDonaldTrumpPepeInu</h1>
-    <h2>The Meme Multiverse Token</h2>
-    <p>$BIGMC is a meme token created for fun, community engagement and cultural impact. 
-       No promises of profit or financial guarantees — just memes, creativity, and decentralized trading.</p>
+    <img
+      src="https://raw.githubusercontent.com/bigmcmeme-blip/BIGMC-official/main/BIGMC_logo_256x256.png?v=2"
+      alt="BIGMC official logo"
+      class="logo"
+    >
+<h1>🐸🍔 $BIGMC — McDonaldTrumpPepeInu</h1>
+<h2>The Meme Multiverse Token</h2>
+<p>
+  $BIGMC is a meme token created for fun, community engagement,
+  and cultural impact. No promises of profit or financial guarantees —
+  just memes, creativity, and decentralized trading.
+</p>
   </header>
-
-  <div class="links">
-    <a href="https://app.uniswap.org/swap?chain=polygon&inputCurrency=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359&outputCurrency=0x0ce132ed0a46fcb20ae208e827522c9b045d7c4e" target="_blank" rel="noopener">🔥 Buy on Uniswap</a>
-
-    <a href="https://www.geckoterminal.com/polygon_pos/pools/0xa5436c6af7cfd9ff1b630b52fa7151e5a29c1adc" target="_blank" rel="noopener">🦎 GeckoTerminal</a>
-
-    <a href="https://x.com/BIGMCmeme" target="_blank" rel="noopener">🐦 X (Twitter)</a>
-
-    <a href="https://github.com/bigmcmeme-blip/BIGMC-official" target="_blank" rel="noopener">📂 GitHub Repo</a>
-  </div>
-
+  <main>
+    <div class="links">
+      <a
+        href="https://app.uniswap.org/swap?chain=polygon&amp;inputCurrency=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359&amp;outputCurrency=0x0ce132ed0a46fcb20ae208e827522c9b045d7c4e"
+        target="_blank"
+        rel="noopener noreferrer"
+      >🔥 Buy on Uniswap</a>
+  <a
+    href="https://www.geckoterminal.com/polygon_pos/pools/0xa5436c6af7cfd9ff1b630b52fa7151e5a29c1adc"
+    target="_blank"
+    rel="noopener noreferrer"
+  >🦎 GeckoTerminal</a>
+  <a
+    href="https://x.com/BIGMCmeme"
+    target="_blank"
+    rel="noopener noreferrer"
+  >🐦 Follow BIGMC on X</a>
+  <a
+    href="https://github.com/bigmcmeme-blip/BIGMC-official"
+    target="_blank"
+    rel="noopener noreferrer"
+  >📂 GitHub Repository</a>
+  <a
+    href="https://t.me/McDonaldTrumpPepeInu"
+    target="_blank"
+    rel="noopener noreferrer"
+  >💬 Join Telegram</a>
+</div>
+<section class="info">
+  <h2>📌 Token Information</h2>
+  <p><strong>Name:</strong> McDonaldTrumpPepeInu</p>
+  <p><strong>Symbol:</strong> BIGMC</p>
+  <p><strong>Network:</strong> Polygon PoS</p>
+  <p><strong>Contract Address:</strong></p>
+  <p class="contract">
+    <a
+      href="https://polygonscan.com/token/0x0Ce132Ed0A46FcB20aE208E827522C9B045D7C4E"
+      target="_blank"
+      rel="noopener noreferrer"
+    >0x0Ce132Ed0A46FcB20aE208E827522C9B045D7C4E</a>
+  </p>
+</section>
+<section class="info">
+  <h2>💧 Liquidity Pools</h2>
+  <p><strong>BIGMC / USDC:</strong></p>
+  <p class="contract">
+    <a
+      href="https://www.geckoterminal.com/polygon_pos/pools/0xa5436c6af7cfd9ff1b630b52fa7151e5a29c1adc"
+      target="_blank"
+      rel="noopener noreferrer"
+    >View BIGMC/USDC Pool on GeckoTerminal</a>
+  </p>
+  <p><strong>BIGMC / POL:</strong></p>
+  <p class="contract">
+    <a
+      href="https://app.uniswap.org/explore/pools/polygon/0x481262FB72cC71751Ab9009Aff0364Df34c0D010"
+      target="_blank"
+      rel="noopener noreferrer"
+    >View BIGMC/POL Pool on Uniswap</a>
+  </p>
+</section>
+<section class="info">
+  <h2>🌐 Official Community</h2>
+  <p>🐦 X: <a href="https://x.com/BIGMCmeme" target="_blank" rel="noopener noreferrer">@BIGMCmeme</a></p>
+  <p>💬 Telegram: <a href="https://t.me/McDonaldTrumpPepeInu" target="_blank" rel="noopener noreferrer">@McDonaldTrumpPepeInu</a></p>
+  <p>📸 Instagram: <a href="https://www.instagram.com/memebigmc" target="_blank" rel="noopener noreferrer">@memebigmc</a></p>
+  <p>📧 Email: <a href="mailto:bigmcmeme@gmail.com">bigmcmeme@gmail.com</a></p>
+</section>
+  </main>
   <footer>
-    ⚡ Disclaimer: $BIGMC is a meme token created for fun and community engagement.<br>
-    There are no promises of profit, returns, or financial guarantees. <br><br>
-
-    📢 Telegram: @McDonaldTrumpPepeInu <br>
-    📧 Email: bigmcmeme@gmail.com <br>
-    📸 Instagram: @memebigmc <br><br>
-
-    🔗 Official PolygonScan Contract: <br>
-    <a href="https://polygonscan.com/token/0x0Ce132Ed0A46FcB20aE208E827522C9B045D7C4E" target="_blank">
-      https://polygonscan.com/token/0x0Ce132Ed0A46FcB20aE208E827522C9B045D7C4E
-    </a>
-    <br><br>
-
-    🔗 Official GeckoTerminal Pool: <br>
-    <a href="https://www.geckoterminal.com/polygon_pos/pools/0xa5436c6af7cfd9ff1b630b52fa7151e5a29c1adc" target="_blank">
-      https://www.geckoterminal.com/polygon_pos/pools/0xa5436c6af7cfd9ff1b630b52fa7151e5a29c1adc
-    </a>
-    <br><br>
-
-    © 2025 $BIGMC — McDonaldTrumpPepeInu
+    <p><strong>⚠️ Risk Disclaimer</strong></p>
+<p>
+  $BIGMC is a meme token intended for entertainment and community engagement.
+  Cryptocurrency assets are volatile and involve substantial risk.
+  There are no promises of profit, returns, or financial guarantees.
+  Always conduct your own research before participating.
+</p>
+<p>
+  © 2026 $BIGMC — McDonaldTrumpPepeInu
+</p>
   </footer>
-
 </body>
 </html>
