@@ -2,11 +2,11 @@
   "name": "BIGMC Token List",
   "logoURI": "https://raw.githubusercontent.com/bigmcmeme-blip/BIGMC-official/main/BIGMC_logo_256x256.png",
   "keywords": ["defi", "meme", "bigmc"],
-  "timestamp": "2025-10-02T00:00:00+00:00",
+  "timestamp": "2026-10-27T00:00:00+00:00",
   "tokens": [
     {
       "chainId": 137,
-      "address": "0xeC0132ED0a46fCb20Ae208e827522c9b045d7c4E",
+      "address": "0x0Ce132Ed0A46FcB20aE208E827522C9B045D7C4E",
       "name": "McDonaldTrumpPepeInu",
       "symbol": "BIGMC",
       "decimals": 18,
@@ -16,6 +16,6 @@
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 0
+    "patch": 1
   }
 }
